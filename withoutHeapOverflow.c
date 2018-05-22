@@ -6,7 +6,7 @@ void main(void){
     
     printf("\n Digite a senha: \n");
     
-    gets(buff);
+    scanf(buff);
     
     if(strcmp(buff, "segredo") == 0 ){
         printf ("\n Senha correta! \n");
